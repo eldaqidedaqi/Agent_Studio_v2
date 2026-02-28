@@ -1,0 +1,29 @@
+# Agent Studio v2.0 — Dependencias Python
+# Generado automáticamente por setup_agent_studio.py
+
+# ── Servidor Web ──────────────────────────────────────────────────
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ── HTTP / Async ──────────────────────────────────────────────────
+httpx>=0.27.0
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# ── Variables de entorno ──────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Seguridad ─────────────────────────────────────────────────────
+cryptography>=42.0.0
+
+# ── Utilidades ────────────────────────────────────────────────────
+rich>=13.7.0
+click>=8.1.0
+watchdog>=4.0.0
+
+# ── Opcional: Modelos locales via Ollama ──────────────────────────
+# ollama>=0.2.0
+
+# ── Opcional: Testing ─────────────────────────────────────────────
+# pytest>=8.0.0
+# pytest-asyncio>=0.23.0
